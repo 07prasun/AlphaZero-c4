@@ -110,6 +110,3 @@ src/components/               board, charts, play and train panels
   the learning machinery, not the ceiling.
 - Elo is chain-relative; the fixed MCTS baseline is there to expose any long-run drift.
 
-## License
-
-MIT
