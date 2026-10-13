@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+html {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn {
+  border: 1px solid #d4d4d4;
+  background: #fff;
+  padding: 0.3rem 0.7rem;
+  line-height: 1.2;
+  transition: background 0.1s, border-color 0.1s;
+}
+.btn:hover:not(:disabled) {
+  border-color: #161616;
+}
+.btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.btn-primary {
+  background: #161616;
+  color: #fff;
+  border-color: #161616;
+}
+.btn-primary:hover:not(:disabled) {
+  background: #333;
+}
+.label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #a3a3a3;
+  margin-bottom: 0.4rem;
+}
